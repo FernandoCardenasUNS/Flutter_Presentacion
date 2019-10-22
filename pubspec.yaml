@@ -1,0 +1,33 @@
+name: presentacion_app
+description: Presentacion
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  assets:
+   - imagenes/chica.png
+   - imagenes/imah.png
+   - imagenes/chico.png
+   - imagenes/chica1.png
+   - imagenes/chico5.png
+   - imagenes/chica3.png
+   - imagenes/chico4.png
+   - imagenes/chica4.png
+   - imagenes/chica6.png
+
+  uses-material-design: true
+
